@@ -1,3 +1,12 @@
+.Flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .Border {
+  border-right: solid 1px rgb(97, 87, 87);
+} */
+
 .App {
   text-align: center;
 }
@@ -13,9 +22,9 @@
   }
 }
 
-.App-header {
+.Header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,6 +36,9 @@
 .App-link {
   color: #61dafb;
 }
+ input {
+   border: 0px;
+ }
 
 @keyframes App-logo-spin {
   from {
